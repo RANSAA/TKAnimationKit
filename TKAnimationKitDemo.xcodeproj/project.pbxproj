@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F4F76D624E142840029F82C /* KenBurnsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F76D224E142840029F82C /* KenBurnsView.m */; };
+		3F4F76D724E142840029F82C /* UIView+General.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F76D324E142840029F82C /* UIView+General.m */; };
+		3F4F76DD24E142D10029F82C /* TKSphereView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F76DC24E142D00029F82C /* TKSphereView.m */; };
+		3F4F76E024E143780029F82C /* TestDBSphereView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F76DF24E143780029F82C /* TestDBSphereView.m */; };
+		3F58071124E1036400E3B68C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F58071024E1036400E3B68C /* AppDelegate.m */; };
+		3F58071424E1036400E3B68C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F58071324E1036400E3B68C /* SceneDelegate.m */; };
+		3F58071724E1036400E3B68C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F58071624E1036400E3B68C /* ViewController.m */; };
+		3F58071A24E1036400E3B68C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F58071824E1036400E3B68C /* Main.storyboard */; };
+		3F58071C24E1036500E3B68C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F58071B24E1036500E3B68C /* Assets.xcassets */; };
+		3F58071F24E1036500E3B68C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F58071D24E1036500E3B68C /* LaunchScreen.storyboard */; };
+		3F58072224E1036500E3B68C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F58072124E1036500E3B68C /* main.m */; };
+		3F58072C24E103AC00E3B68C /* TKAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F58072B24E103AC00E3B68C /* TKAnimation.m */; };
+		3F58073724E134D200E3B68C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F58073624E134D200E3B68C /* TableViewController.m */; };
+		3F58073B24E13BAF00E3B68C /* TestKenBurnsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F58073A24E13BAF00E3B68C /* TestKenBurnsView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F4F76D224E142840029F82C /* KenBurnsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KenBurnsView.m; sourceTree = "<group>"; };
+		3F4F76D324E142840029F82C /* UIView+General.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+General.m"; sourceTree = "<group>"; };
+		3F4F76D424E142840029F82C /* KenBurnsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KenBurnsView.h; sourceTree = "<group>"; };
+		3F4F76D524E142840029F82C /* UIView+General.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+General.h"; sourceTree = "<group>"; };
+		3F4F76D924E142D00029F82C /* TKPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKPoint.h; sourceTree = "<group>"; };
+		3F4F76DA24E142D00029F82C /* TKSphereView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKSphereView.h; sourceTree = "<group>"; };
+		3F4F76DB24E142D00029F82C /* TKMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKMatrix.h; sourceTree = "<group>"; };
+		3F4F76DC24E142D00029F82C /* TKSphereView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKSphereView.m; sourceTree = "<group>"; };
+		3F4F76DE24E143780029F82C /* TestDBSphereView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDBSphereView.h; sourceTree = "<group>"; };
+		3F4F76DF24E143780029F82C /* TestDBSphereView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDBSphereView.m; sourceTree = "<group>"; };
+		3F4F76E124E1486F0029F82C /* TKAnimationKitDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TKAnimationKitDemo.entitlements; sourceTree = "<group>"; };
+		3F58070C24E1036400E3B68C /* TKAnimationKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKAnimationKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F58070F24E1036400E3B68C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F58071024E1036400E3B68C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F58071224E1036400E3B68C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3F58071324E1036400E3B68C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3F58071524E1036400E3B68C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F58071624E1036400E3B68C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F58071924E1036400E3B68C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F58071B24E1036500E3B68C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F58071E24E1036500E3B68C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F58072024E1036500E3B68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F58072124E1036500E3B68C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F58072A24E103AC00E3B68C /* TKAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAnimation.h; sourceTree = "<group>"; };
+		3F58072B24E103AC00E3B68C /* TKAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAnimation.m; sourceTree = "<group>"; };
+		3F58073424E1326A00E3B68C /* TKAnimationKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKAnimationKit.h; sourceTree = "<group>"; };
+		3F58073524E134D200E3B68C /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		3F58073624E134D200E3B68C /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		3F58073924E13BAF00E3B68C /* TestKenBurnsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestKenBurnsView.h; sourceTree = "<group>"; };
+		3F58073A24E13BAF00E3B68C /* TestKenBurnsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestKenBurnsView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F58070924E1036400E3B68C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F4F76D124E142840029F82C /* KenBurnsView */ = {
+			isa = PBXGroup;
+			children = (
+				3F4F76D424E142840029F82C /* KenBurnsView.h */,
+				3F4F76D224E142840029F82C /* KenBurnsView.m */,
+				3F4F76D524E142840029F82C /* UIView+General.h */,
+				3F4F76D324E142840029F82C /* UIView+General.m */,
+			);
+			path = KenBurnsView;
+			sourceTree = "<group>";
+		};
+		3F4F76D824E142D00029F82C /* TKSphereTagCloud */ = {
+			isa = PBXGroup;
+			children = (
+				3F4F76DB24E142D00029F82C /* TKMatrix.h */,
+				3F4F76D924E142D00029F82C /* TKPoint.h */,
+				3F4F76DA24E142D00029F82C /* TKSphereView.h */,
+				3F4F76DC24E142D00029F82C /* TKSphereView.m */,
+			);
+			path = TKSphereTagCloud;
+			sourceTree = "<group>";
+		};
+		3F58070324E1036400E3B68C = {
+			isa = PBXGroup;
+			children = (
+				3F58072824E1036E00E3B68C /* TKAnimationKit */,
+				3F58070E24E1036400E3B68C /* TKAnimationKitDemo */,
+				3F58070D24E1036400E3B68C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F58070D24E1036400E3B68C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F58070C24E1036400E3B68C /* TKAnimationKitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F58070E24E1036400E3B68C /* TKAnimationKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3F4F76E124E1486F0029F82C /* TKAnimationKitDemo.entitlements */,
+				3F58070F24E1036400E3B68C /* AppDelegate.h */,
+				3F58071024E1036400E3B68C /* AppDelegate.m */,
+				3F58071224E1036400E3B68C /* SceneDelegate.h */,
+				3F58071324E1036400E3B68C /* SceneDelegate.m */,
+				3F58073524E134D200E3B68C /* TableViewController.h */,
+				3F58073624E134D200E3B68C /* TableViewController.m */,
+				3F58073824E13B1400E3B68C /* testController */,
+				3F58071824E1036400E3B68C /* Main.storyboard */,
+				3F58071B24E1036500E3B68C /* Assets.xcassets */,
+				3F58071D24E1036500E3B68C /* LaunchScreen.storyboard */,
+				3F58072024E1036500E3B68C /* Info.plist */,
+				3F58072124E1036500E3B68C /* main.m */,
+			);
+			path = TKAnimationKitDemo;
+			sourceTree = "<group>";
+		};
+		3F58072824E1036E00E3B68C /* TKAnimationKit */ = {
+			isa = PBXGroup;
+			children = (
+				3F4F76D824E142D00029F82C /* TKSphereTagCloud */,
+				3F4F76D124E142840029F82C /* KenBurnsView */,
+				3F58072924E103AC00E3B68C /* TKAnimation */,
+				3F58073424E1326A00E3B68C /* TKAnimationKit.h */,
+			);
+			path = TKAnimationKit;
+			sourceTree = "<group>";
+		};
+		3F58072924E103AC00E3B68C /* TKAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				3F58072A24E103AC00E3B68C /* TKAnimation.h */,
+				3F58072B24E103AC00E3B68C /* TKAnimation.m */,
+			);
+			path = TKAnimation;
+			sourceTree = "<group>";
+		};
+		3F58073824E13B1400E3B68C /* testController */ = {
+			isa = PBXGroup;
+			children = (
+				3F58071524E1036400E3B68C /* ViewController.h */,
+				3F58071624E1036400E3B68C /* ViewController.m */,
+				3F58073924E13BAF00E3B68C /* TestKenBurnsView.h */,
+				3F58073A24E13BAF00E3B68C /* TestKenBurnsView.m */,
+				3F4F76DE24E143780029F82C /* TestDBSphereView.h */,
+				3F4F76DF24E143780029F82C /* TestDBSphereView.m */,
+			);
+			path = testController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F58070B24E1036400E3B68C /* TKAnimationKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F58072524E1036500E3B68C /* Build configuration list for PBXNativeTarget "TKAnimationKitDemo" */;
+			buildPhases = (
+				3F58070824E1036400E3B68C /* Sources */,
+				3F58070924E1036400E3B68C /* Frameworks */,
+				3F58070A24E1036400E3B68C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKAnimationKitDemo;
+			productName = TKAnimationKit;
+			productReference = 3F58070C24E1036400E3B68C /* TKAnimationKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F58070424E1036400E3B68C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = PC;
+				TargetAttributes = {
+					3F58070B24E1036400E3B68C = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 3F58070724E1036400E3B68C /* Build configuration list for PBXProject "TKAnimationKitDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F58070324E1036400E3B68C;
+			productRefGroup = 3F58070D24E1036400E3B68C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F58070B24E1036400E3B68C /* TKAnimationKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F58070A24E1036400E3B68C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F58071F24E1036500E3B68C /* LaunchScreen.storyboard in Resources */,
+				3F58071C24E1036500E3B68C /* Assets.xcassets in Resources */,
+				3F58071A24E1036400E3B68C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F58070824E1036400E3B68C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F58071724E1036400E3B68C /* ViewController.m in Sources */,
+				3F58071124E1036400E3B68C /* AppDelegate.m in Sources */,
+				3F58072224E1036500E3B68C /* main.m in Sources */,
+				3F58073B24E13BAF00E3B68C /* TestKenBurnsView.m in Sources */,
+				3F4F76D624E142840029F82C /* KenBurnsView.m in Sources */,
+				3F58071424E1036400E3B68C /* SceneDelegate.m in Sources */,
+				3F4F76D724E142840029F82C /* UIView+General.m in Sources */,
+				3F58072C24E103AC00E3B68C /* TKAnimation.m in Sources */,
+				3F58073724E134D200E3B68C /* TableViewController.m in Sources */,
+				3F4F76E024E143780029F82C /* TestDBSphereView.m in Sources */,
+				3F4F76DD24E142D10029F82C /* TKSphereView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F58071824E1036400E3B68C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F58071924E1036400E3B68C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F58071D24E1036500E3B68C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F58071E24E1036500E3B68C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F58072324E1036500E3B68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F58072424E1036500E3B68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F58072624E1036500E3B68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TKAnimationKitDemo/TKAnimationKitDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39E8LG3NH3;
+				INFOPLIST_FILE = "$(SRCROOT)/TKAnimationKitDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sayaDev.TKAnimationKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F58072724E1036500E3B68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TKAnimationKitDemo/TKAnimationKitDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39E8LG3NH3;
+				INFOPLIST_FILE = "$(SRCROOT)/TKAnimationKitDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sayaDev.TKAnimationKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F58070724E1036400E3B68C /* Build configuration list for PBXProject "TKAnimationKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F58072324E1036500E3B68C /* Debug */,
+				3F58072424E1036500E3B68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F58072524E1036500E3B68C /* Build configuration list for PBXNativeTarget "TKAnimationKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F58072624E1036500E3B68C /* Debug */,
+				3F58072724E1036500E3B68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F58070424E1036400E3B68C /* Project object */;
+}
