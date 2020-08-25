@@ -34,7 +34,7 @@
 {
     NSArray *ary = @[[UIImage imageNamed:@"tiankong1"]];
     KenBurnsView *vi = [[KenBurnsView alloc] initWithFrame:self.view.bounds];
-    [vi animateWithImages:ary transitionDuration:15 loop:YES isLandscape:YES];
+    [vi animateWithImages:ary transitionDuration:25 loop:YES isLandscape:YES];
     [self.view addSubview:vi];
 }
 
