@@ -134,7 +134,8 @@
 - (IBAction)sliderChangeAction:(UISlider *)sender {
     self.colorLayer.timeOffset = sender.value;
 
-    self.shapeLayer.strokeStart = sender.value;
+//    self.shapeLayer.strokeStart = sender.value;
+    self.shapeLayer.strokeEnd = sender.value;
 
     NSLog(@"value:%.4f",sender.value);
 }
